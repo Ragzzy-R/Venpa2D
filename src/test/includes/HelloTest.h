@@ -27,7 +27,7 @@ public:
 	void onResume();
 	void dispose();
 private:
-	Texture* texture = new Texture("/home/raghuram/workspaces/C++/Venpa2D/src/test/Image0.png");
+	Texture* texture = new Texture("../src/test/Image0.png");
 };
 
 
