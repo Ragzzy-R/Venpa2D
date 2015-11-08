@@ -12,7 +12,7 @@
 using namespace std;
 
 
-int main() {
+int main(int argc, char *argv[]) {
 
 	Venpa2D::Core::Venpa2DApplication app;
 	Venpa2D::Core::ApplicationConfig config;

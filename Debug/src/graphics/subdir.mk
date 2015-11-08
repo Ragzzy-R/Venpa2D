@@ -17,7 +17,7 @@ CPP_DEPS += \
 src/graphics/%.o: ../src/graphics/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/usr/include/c++/5.2.0 -I/usr/include/c++/5.2.0/bits -I"/home/raghuram/workspaces/C++/Venpa2D/src/includes" -I"/home/raghuram/workspaces/C++/Venpa2D/src/test/includes" -I/usr/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -I"D:\workspaces\C++\Venpa2D\src\includes" -I"D:\workspaces\C++\Venpa2D\src\test\includes" -I"C:\winbuilds\include\SDL2" -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
