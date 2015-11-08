@@ -35,7 +35,7 @@ void HelloTest::onResume() {
 }
 void HelloTest::render() {
 
-	texture->draw(0,0,1,1);
+	texture->draw(0,0,100,100);
 }
 
 void HelloTest::dispose() {

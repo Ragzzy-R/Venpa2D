@@ -7,6 +7,7 @@
 
 #include "Texture.h"
 
+
 namespace Venpa2D {
 
 namespace Graphics {
@@ -52,9 +53,6 @@ void Texture::draw(int x,int y,int width,int height) {
 
 	glClearColor(1.0, 0.0, 0.0, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT);
-
-	float fx = 1.0 / (float)textureWidth;
-		float fy = 1.0 / (float)textureHeight;
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
 	glPushMatrix();
@@ -62,13 +60,15 @@ void Texture::draw(int x,int y,int width,int height) {
 	//glRotatef(rotAngle,0.0f,0.0f,1.0f);
 	//glTranslatef(-(xpos+(dw/2)),-(ypos+(dh/2)),0.0f);
 
+	glEnable(GL_TEXTURE_2D);
+	glActiveTextureARB(GL_TEXTURE0_ARB);
 	glBindTexture(GL_TEXTURE_2D,texture);
 	glBegin(GL_QUADS);
 	//glColor3f(0.0,0.0,1.0);
-	glTexCoord2f(0.0f,1.0f);  glVertex3f(x + 00000, y + height, 0.0f);
-	glTexCoord2f(1.0f,1.0f);  glVertex3f(x + width, y + height, 0.0f);
-	glTexCoord2f(1.0f,0.0f);  glVertex3f(x + width, y + 000000, 0.0f);
-	glTexCoord2f(0.0f,0.0f);  glVertex3f(x + 00000, y + 000000, 0.0f);
+	glTexCoord2f(0.0f,0.0f);  glVertex3f(x + 00000, y + height, 0.0f);
+	glTexCoord2f(1.0f,0.0f);  glVertex3f(x + width, y + height, 0.0f);
+	glTexCoord2f(1.0f,1.0f);  glVertex3f(x + width, y + 000000, 0.0f);
+	glTexCoord2f(0.0f,1.0f);  glVertex3f(x + 00000, y + 000000, 0.0f);
 	glEnd();
 	glDisable(GL_BLEND);
 	glPopMatrix();

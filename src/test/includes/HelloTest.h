@@ -27,7 +27,8 @@ public:
 	void onResume();
 	void dispose();
 private:
-	Texture* texture = new Texture("../src/test/Image0.png");
+	Texture* texture = new Texture("../src/test/Capture.png");
+	//Texture* texture = new Texture("../src/test/Image0.png");
 };
 
 

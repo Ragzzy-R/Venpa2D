@@ -12,6 +12,8 @@
 #include <SDL_image.h>
 #include <SDL_opengl.h>
 
+
+
 namespace Venpa2D {
 
 namespace Graphics {

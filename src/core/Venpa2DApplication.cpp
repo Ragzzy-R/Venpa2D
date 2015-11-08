@@ -78,21 +78,21 @@ void Venpa2DApplication::intializeSDL(ApplicationConfig &config) {
 
 		    			    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
-		    			    //glViewport(0, 0,config.getScreenWidth(),config.getScreenHeight());
+		    			    glViewport(0, 0,config.getScreenWidth(),config.getScreenHeight());
 
 		    			    glMatrixMode(GL_PROJECTION);
 		    			    glLoadIdentity();
 
-		    			    //glOrtho(0,config.getScreenWidth(),config.getScreenHeight(), 0, 1, -1);
+		    			    glOrtho(0,config.getScreenWidth(),config.getScreenHeight(), 0, 1, -1);
 
-		    			//    glMatrixMode(GL_MODELVIEW);
+		    			    glMatrixMode(GL_MODELVIEW);
 		    				glEnable(GL_TEXTURE_2D);
-		    				//glClearDepth( 1.0f );
-		    				//glEnable( GL_DEPTH_TEST );
-		    				//glDepthFunc( GL_LEQUAL );
-		    				//glHint( GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST );
+		    				glClearDepth( 1.0f );
+		    				glEnable( GL_DEPTH_TEST );
+		    				glDepthFunc( GL_LEQUAL );
+		    				glHint( GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST );
 		    				glLoadIdentity();
 
-		    				//glEnable(GL_CULL_FACE);
+		    				glEnable(GL_CULL_FACE);
 
 }
