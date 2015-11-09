@@ -1,155 +1,134 @@
 src/Venpa2D.d: ../src/Venpa2D.cpp \
- D:\workspaces\C++\Venpa2D\src\includes/Venpa2DApplication.h \
- D:\workspaces\C++\Venpa2D\src\includes/ApplicationConfig.h \
- C:\winbuilds\include\SDL2/SDL.h C:\winbuilds\include\SDL2/SDL_main.h \
- C:\winbuilds\include\SDL2/SDL_stdinc.h \
- C:\winbuilds\include\SDL2/SDL_config.h \
- C:\winbuilds\include\SDL2/SDL_platform.h \
- C:\winbuilds\include\SDL2/begin_code.h \
- C:\winbuilds\include\SDL2/close_code.h \
- C:\winbuilds\include\SDL2/SDL_assert.h \
- C:\winbuilds\include\SDL2/SDL_atomic.h \
- C:\winbuilds\include\SDL2/SDL_audio.h \
- C:\winbuilds\include\SDL2/SDL_error.h \
- C:\winbuilds\include\SDL2/SDL_endian.h \
- C:\winbuilds\include\SDL2/SDL_mutex.h \
- C:\winbuilds\include\SDL2/SDL_thread.h \
- C:\winbuilds\include\SDL2/SDL_rwops.h \
- C:\winbuilds\include\SDL2/SDL_clipboard.h \
- C:\winbuilds\include\SDL2/SDL_cpuinfo.h \
- C:\winbuilds\include\SDL2/SDL_events.h \
- C:\winbuilds\include\SDL2/SDL_video.h \
- C:\winbuilds\include\SDL2/SDL_pixels.h \
- C:\winbuilds\include\SDL2/SDL_rect.h \
- C:\winbuilds\include\SDL2/SDL_surface.h \
- C:\winbuilds\include\SDL2/SDL_blendmode.h \
- C:\winbuilds\include\SDL2/SDL_keyboard.h \
- C:\winbuilds\include\SDL2/SDL_keycode.h \
- C:\winbuilds\include\SDL2/SDL_scancode.h \
- C:\winbuilds\include\SDL2/SDL_mouse.h \
- C:\winbuilds\include\SDL2/SDL_joystick.h \
- C:\winbuilds\include\SDL2/SDL_gamecontroller.h \
- C:\winbuilds\include\SDL2/SDL_quit.h \
- C:\winbuilds\include\SDL2/SDL_gesture.h \
- C:\winbuilds\include\SDL2/SDL_touch.h \
- C:\winbuilds\include\SDL2/SDL_filesystem.h \
- C:\winbuilds\include\SDL2/SDL_haptic.h \
- C:\winbuilds\include\SDL2/SDL_hints.h \
- C:\winbuilds\include\SDL2/SDL_loadso.h \
- C:\winbuilds\include\SDL2/SDL_log.h \
- C:\winbuilds\include\SDL2/SDL_messagebox.h \
- C:\winbuilds\include\SDL2/SDL_power.h \
- C:\winbuilds\include\SDL2/SDL_render.h \
- C:\winbuilds\include\SDL2/SDL_system.h \
- C:\winbuilds\include\SDL2/SDL_timer.h \
- C:\winbuilds\include\SDL2/SDL_version.h \
- C:\winbuilds\include\SDL2/SDL_opengl.h \
- C:\winbuilds\include\SDL2/SDL_image.h C:\winbuilds\include\SDL2/SDL.h \
- D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h \
- D:\workspaces\C++\Venpa2D\src\test\includes/HelloTest.h \
- D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h \
- D:\workspaces\C++\Venpa2D\src\includes/Texture.h
+ /home/raghuram/workspaces/C++/Venpa2D/src/includes/Venpa2DApplication.h \
+ /home/raghuram/workspaces/C++/Venpa2D/src/includes/ApplicationConfig.h \
+ /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
+ /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
+ /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
+ /usr/include/SDL2/close_code.h /usr/include/SDL2/SDL_assert.h \
+ /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_audio.h \
+ /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h \
+ /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h \
+ /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h \
+ /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h \
+ /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h \
+ /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h \
+ /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h \
+ /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h \
+ /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h \
+ /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_quit.h \
+ /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h \
+ /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h \
+ /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h \
+ /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h \
+ /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h \
+ /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
+ /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_opengl.h \
+ /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
+ /home/raghuram/workspaces/C++/Venpa2D/src/includes/ApplicationListener.h \
+ /home/raghuram/workspaces/C++/Venpa2D/src/test/includes/HelloTest.h \
+ /home/raghuram/workspaces/C++/Venpa2D/src/includes/ApplicationListener.h \
+ /home/raghuram/workspaces/C++/Venpa2D/src/includes/Texture.h
 
-D:\workspaces\C++\Venpa2D\src\includes/Venpa2DApplication.h:
+/home/raghuram/workspaces/C++/Venpa2D/src/includes/Venpa2DApplication.h:
 
-D:\workspaces\C++\Venpa2D\src\includes/ApplicationConfig.h:
+/home/raghuram/workspaces/C++/Venpa2D/src/includes/ApplicationConfig.h:
 
-C:\winbuilds\include\SDL2/SDL.h:
+/usr/include/SDL2/SDL.h:
 
-C:\winbuilds\include\SDL2/SDL_main.h:
+/usr/include/SDL2/SDL_main.h:
 
-C:\winbuilds\include\SDL2/SDL_stdinc.h:
+/usr/include/SDL2/SDL_stdinc.h:
 
-C:\winbuilds\include\SDL2/SDL_config.h:
+/usr/include/SDL2/SDL_config.h:
 
-C:\winbuilds\include\SDL2/SDL_platform.h:
+/usr/include/SDL2/SDL_platform.h:
 
-C:\winbuilds\include\SDL2/begin_code.h:
+/usr/include/SDL2/begin_code.h:
 
-C:\winbuilds\include\SDL2/close_code.h:
+/usr/include/SDL2/close_code.h:
 
-C:\winbuilds\include\SDL2/SDL_assert.h:
+/usr/include/SDL2/SDL_assert.h:
 
-C:\winbuilds\include\SDL2/SDL_atomic.h:
+/usr/include/SDL2/SDL_atomic.h:
 
-C:\winbuilds\include\SDL2/SDL_audio.h:
+/usr/include/SDL2/SDL_audio.h:
 
-C:\winbuilds\include\SDL2/SDL_error.h:
+/usr/include/SDL2/SDL_error.h:
 
-C:\winbuilds\include\SDL2/SDL_endian.h:
+/usr/include/SDL2/SDL_endian.h:
 
-C:\winbuilds\include\SDL2/SDL_mutex.h:
+/usr/include/SDL2/SDL_mutex.h:
 
-C:\winbuilds\include\SDL2/SDL_thread.h:
+/usr/include/SDL2/SDL_thread.h:
 
-C:\winbuilds\include\SDL2/SDL_rwops.h:
+/usr/include/SDL2/SDL_rwops.h:
 
-C:\winbuilds\include\SDL2/SDL_clipboard.h:
+/usr/include/SDL2/SDL_clipboard.h:
 
-C:\winbuilds\include\SDL2/SDL_cpuinfo.h:
+/usr/include/SDL2/SDL_cpuinfo.h:
 
-C:\winbuilds\include\SDL2/SDL_events.h:
+/usr/include/SDL2/SDL_events.h:
 
-C:\winbuilds\include\SDL2/SDL_video.h:
+/usr/include/SDL2/SDL_video.h:
 
-C:\winbuilds\include\SDL2/SDL_pixels.h:
+/usr/include/SDL2/SDL_pixels.h:
 
-C:\winbuilds\include\SDL2/SDL_rect.h:
+/usr/include/SDL2/SDL_rect.h:
 
-C:\winbuilds\include\SDL2/SDL_surface.h:
+/usr/include/SDL2/SDL_surface.h:
 
-C:\winbuilds\include\SDL2/SDL_blendmode.h:
+/usr/include/SDL2/SDL_blendmode.h:
 
-C:\winbuilds\include\SDL2/SDL_keyboard.h:
+/usr/include/SDL2/SDL_keyboard.h:
 
-C:\winbuilds\include\SDL2/SDL_keycode.h:
+/usr/include/SDL2/SDL_keycode.h:
 
-C:\winbuilds\include\SDL2/SDL_scancode.h:
+/usr/include/SDL2/SDL_scancode.h:
 
-C:\winbuilds\include\SDL2/SDL_mouse.h:
+/usr/include/SDL2/SDL_mouse.h:
 
-C:\winbuilds\include\SDL2/SDL_joystick.h:
+/usr/include/SDL2/SDL_joystick.h:
 
-C:\winbuilds\include\SDL2/SDL_gamecontroller.h:
+/usr/include/SDL2/SDL_gamecontroller.h:
 
-C:\winbuilds\include\SDL2/SDL_quit.h:
+/usr/include/SDL2/SDL_quit.h:
 
-C:\winbuilds\include\SDL2/SDL_gesture.h:
+/usr/include/SDL2/SDL_gesture.h:
 
-C:\winbuilds\include\SDL2/SDL_touch.h:
+/usr/include/SDL2/SDL_touch.h:
 
-C:\winbuilds\include\SDL2/SDL_filesystem.h:
+/usr/include/SDL2/SDL_filesystem.h:
 
-C:\winbuilds\include\SDL2/SDL_haptic.h:
+/usr/include/SDL2/SDL_haptic.h:
 
-C:\winbuilds\include\SDL2/SDL_hints.h:
+/usr/include/SDL2/SDL_hints.h:
 
-C:\winbuilds\include\SDL2/SDL_loadso.h:
+/usr/include/SDL2/SDL_loadso.h:
 
-C:\winbuilds\include\SDL2/SDL_log.h:
+/usr/include/SDL2/SDL_log.h:
 
-C:\winbuilds\include\SDL2/SDL_messagebox.h:
+/usr/include/SDL2/SDL_messagebox.h:
 
-C:\winbuilds\include\SDL2/SDL_power.h:
+/usr/include/SDL2/SDL_power.h:
 
-C:\winbuilds\include\SDL2/SDL_render.h:
+/usr/include/SDL2/SDL_render.h:
 
-C:\winbuilds\include\SDL2/SDL_system.h:
+/usr/include/SDL2/SDL_system.h:
 
-C:\winbuilds\include\SDL2/SDL_timer.h:
+/usr/include/SDL2/SDL_timer.h:
 
-C:\winbuilds\include\SDL2/SDL_version.h:
+/usr/include/SDL2/SDL_version.h:
 
-C:\winbuilds\include\SDL2/SDL_opengl.h:
+/usr/include/SDL2/SDL_opengl.h:
 
-C:\winbuilds\include\SDL2/SDL_image.h:
+/usr/include/SDL2/SDL_image.h:
 
-C:\winbuilds\include\SDL2/SDL.h:
+/usr/include/SDL2/SDL.h:
 
-D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h:
+/home/raghuram/workspaces/C++/Venpa2D/src/includes/ApplicationListener.h:
 
-D:\workspaces\C++\Venpa2D\src\test\includes/HelloTest.h:
+/home/raghuram/workspaces/C++/Venpa2D/src/test/includes/HelloTest.h:
 
-D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h:
+/home/raghuram/workspaces/C++/Venpa2D/src/includes/ApplicationListener.h:
 
-D:\workspaces\C++\Venpa2D\src\includes/Texture.h:
+/home/raghuram/workspaces/C++/Venpa2D/src/includes/Texture.h:
