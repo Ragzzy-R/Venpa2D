@@ -16,12 +16,12 @@ int main(int argc, char *argv[]) {
 
 	Venpa2D::Core::Venpa2DApplication app;
 	Venpa2D::Core::ApplicationConfig config;
-	config.setScreeHeight(480);
-	config.setScreenWidth(640);
+	config.setScreeHeight(320);
+	config.setScreenWidth(400);
 	config.setTitle("Venpa Test");
 	HelloTest test;
 	app.initialize(config,test);
 
-
+	return 0;
 
 }

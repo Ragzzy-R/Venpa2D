@@ -1,8 +1,9 @@
+#pragma once
 /*
  * ApplicationConfig.h
  *
  *  Created on: Nov 7, 2015
- *      Author: raghuram
+ *      Author: raghuram Iyer
  */
 
 #ifndef CORE_APPLICATIONCONFIG_H_

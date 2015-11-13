@@ -1,3 +1,5 @@
+#pragma once
+
 /*
  * Texture.h
  *
@@ -8,7 +10,7 @@
 #ifndef GRAPHICS_TEXTURE_H_
 #define GRAPHICS_TEXTURE_H_
 
-
+#include <GL/glew.h>
 #include <SDL_image.h>
 #include <SDL_opengl.h>
 

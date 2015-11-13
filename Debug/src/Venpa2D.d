@@ -1,5 +1,6 @@
-src/Venpa2D.d: ../src/Venpa2D.cpp \
+src/Venpa2D.d: ../src/Venpa2D.cpp C:\winbuilds\include\c++\4.8.3/iostream \
  D:\workspaces\C++\Venpa2D\src\includes/Venpa2DApplication.h \
+ D:\workspaces\C++\glew-1.13.0\include/GL/glew.h \
  D:\workspaces\C++\Venpa2D\src\includes/ApplicationConfig.h \
  C:\winbuilds\include\SDL2/SDL.h C:\winbuilds\include\SDL2/SDL_main.h \
  C:\winbuilds\include\SDL2/SDL_stdinc.h \
@@ -43,14 +44,17 @@ src/Venpa2D.d: ../src/Venpa2D.cpp \
  C:\winbuilds\include\SDL2/SDL_system.h \
  C:\winbuilds\include\SDL2/SDL_timer.h \
  C:\winbuilds\include\SDL2/SDL_version.h \
+ D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h \
  C:\winbuilds\include\SDL2/SDL_opengl.h \
  C:\winbuilds\include\SDL2/SDL_image.h C:\winbuilds\include\SDL2/SDL.h \
- D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h \
  D:\workspaces\C++\Venpa2D\src\test\includes/HelloTest.h \
- D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h \
  D:\workspaces\C++\Venpa2D\src\includes/Texture.h
 
+C:\winbuilds\include\c++\4.8.3/iostream:
+
 D:\workspaces\C++\Venpa2D\src\includes/Venpa2DApplication.h:
+
+D:\workspaces\C++\glew-1.13.0\include/GL/glew.h:
 
 D:\workspaces\C++\Venpa2D\src\includes/ApplicationConfig.h:
 
@@ -140,16 +144,14 @@ C:\winbuilds\include\SDL2/SDL_timer.h:
 
 C:\winbuilds\include\SDL2/SDL_version.h:
 
+D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h:
+
 C:\winbuilds\include\SDL2/SDL_opengl.h:
 
 C:\winbuilds\include\SDL2/SDL_image.h:
 
 C:\winbuilds\include\SDL2/SDL.h:
 
-D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h:
-
 D:\workspaces\C++\Venpa2D\src\test\includes/HelloTest.h:
-
-D:\workspaces\C++\Venpa2D\src\includes/ApplicationListener.h:
 
 D:\workspaces\C++\Venpa2D\src\includes/Texture.h:

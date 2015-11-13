@@ -1,3 +1,4 @@
+#pragma once
 /*
  * HelloTest.h
  *
@@ -7,9 +8,10 @@
 
 #ifndef TEST_HELLOTEST_H_
 #define TEST_HELLOTEST_H_
-
-#include "ApplicationListener.h"
 #include "Texture.h"
+#include "ApplicationListener.h"
+
+#include <stdio.h>
 
 using namespace Venpa2D::Core;
 using namespace Venpa2D::Graphics;
@@ -27,7 +29,8 @@ public:
 	void onResume();
 	void dispose();
 private:
-	Texture* texture = new Texture("../src/test/Capture.png");
+	Texture* texture[10];
+	//Texture* texture = new Texture("../src/test/Capture.png");
 	//Texture* texture = new Texture("../src/test/Image0.png");
 };
 

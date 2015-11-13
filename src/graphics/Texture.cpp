@@ -6,14 +6,14 @@
  */
 
 #include "Texture.h"
-
-
+#include <stdio.h>
 namespace Venpa2D {
 
 namespace Graphics {
 
 Texture::Texture(const char* filename) {
 	SDL_Surface* TextureImage;
+
 		if ((TextureImage = IMG_Load(filename)))  {
 			int bpp = TextureImage->format->BytesPerPixel;
 			textureWidth  = TextureImage->w;
@@ -30,29 +30,26 @@ Texture::Texture(const char* filename) {
 			if(bpp == 2)
 				colorFormat = GL_LUMINANCE_ALPHA;
 
-			glTexImage2D(GL_TEXTURE_2D, 0, colorFormat, TextureImage->w, TextureImage->h, 0, colorFormat, GL_UNSIGNED_BYTE,TextureImage->pixels);
+			glTexImage2D(GL_TEXTURE_2D, 0,colorFormat, TextureImage->w, TextureImage->h, 0,colorFormat, GL_UNSIGNED_BYTE,TextureImage->pixels);
 
 			glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR );
 			glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR );
-			printf("HELLO");
 
 			 /* Free up any memory we may have used */
 			    if ( TextureImage)
 				    SDL_FreeSurface( TextureImage);
 		}
 		else {
-			printf("ImageNot loaded reason: %s",SDL_GetError());
+			printf("Image Not loaded reason: %s",SDL_GetError());
 		}
 }
-
 Texture::~Texture() {
 	// TODO Auto-generated destructor stub
 }
 
 void Texture::draw(int x,int y,int width,int height) {
 
-	glClearColor(1.0, 0.0, 0.0, 1.0);
-	glClear(GL_COLOR_BUFFER_BIT);
+
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
 	glPushMatrix();
@@ -61,14 +58,14 @@ void Texture::draw(int x,int y,int width,int height) {
 	//glTranslatef(-(xpos+(dw/2)),-(ypos+(dh/2)),0.0f);
 
 	glEnable(GL_TEXTURE_2D);
-	glActiveTextureARB(GL_TEXTURE0_ARB);
+	//glActiveTextureARB(GL_TEXTURE0_ARB);
 	glBindTexture(GL_TEXTURE_2D,texture);
 	glBegin(GL_QUADS);
 	//glColor3f(0.0,0.0,1.0);
-	glTexCoord2f(0.0f,0.0f);  glVertex3f(x + 00000, y + height, 0.0f);
-	glTexCoord2f(1.0f,0.0f);  glVertex3f(x + width, y + height, 0.0f);
-	glTexCoord2f(1.0f,1.0f);  glVertex3f(x + width, y + 000000, 0.0f);
-	glTexCoord2f(0.0f,1.0f);  glVertex3f(x + 00000, y + 000000, 0.0f);
+	glTexCoord2f(0.0f,1.0f);  glVertex3f(x + 00000, y + height, 0.0f);
+	glTexCoord2f(1.0f,1.0f);  glVertex3f(x + width, y + height, 0.0f);
+	glTexCoord2f(1.0f,0.0f);  glVertex3f(x + width, y + 000000, 0.0f);
+	glTexCoord2f(0.0f,0.0f);  glVertex3f(x + 00000, y + 000000, 0.0f);
 	glEnd();
 	glDisable(GL_BLEND);
 	glPopMatrix();

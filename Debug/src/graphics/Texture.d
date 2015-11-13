@@ -1,5 +1,6 @@
 src/graphics/Texture.d: ../src/graphics/Texture.cpp \
  D:\workspaces\C++\Venpa2D\src\includes/Texture.h \
+ D:\workspaces\C++\glew-1.13.0\include/GL/glew.h \
  C:\winbuilds\include\SDL2/SDL_image.h C:\winbuilds\include\SDL2/SDL.h \
  C:\winbuilds\include\SDL2/SDL_main.h \
  C:\winbuilds\include\SDL2/SDL_stdinc.h \
@@ -46,6 +47,8 @@ src/graphics/Texture.d: ../src/graphics/Texture.cpp \
  C:\winbuilds\include\SDL2/SDL_opengl.h
 
 D:\workspaces\C++\Venpa2D\src\includes/Texture.h:
+
+D:\workspaces\C++\glew-1.13.0\include/GL/glew.h:
 
 C:\winbuilds\include\SDL2/SDL_image.h:
 

@@ -1,3 +1,4 @@
+#pragma once
 /*
  * ApplicationListener.h
  *
@@ -14,6 +15,7 @@ namespace Core {
 class ApplicationListener {
 public:
 	virtual ~ApplicationListener()=default;
+	//virtual ~ApplicationListener();
 	virtual void init()=0;
 	virtual void update()=0;
 	virtual void render()=0;

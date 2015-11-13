@@ -47,7 +47,7 @@ all: Venpa2D.exe
 Venpa2D.exe: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MinGW C++ Linker'
-	g++ -L"C:\MinGW\lib" -L"C:\winbuilds\lib64\SDL" -L"D:\workspaces\C++\SDL2-2.0.3\i686-w64-mingw32\lib" -o "Venpa2D.exe" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"C:\MinGW\lib" -L"C:\winbuilds\lib64\SDL" -L"D:\workspaces\C++\SDL2-2.0.3\i686-w64-mingw32\lib" -L"D:\workspaces\C++\glew-1.13.0\lib" -o "Venpa2D.exe" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

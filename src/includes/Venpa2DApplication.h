@@ -1,3 +1,4 @@
+#pragma once
 /*
  * Venpa2DApplication.h
  *
@@ -7,13 +8,14 @@
 
 #ifndef CORE_VENPA2DAPPLICATION_H_
 #define CORE_VENPA2DAPPLICATION_H_
-
-
+#include <GL/glew.h>
 #include "ApplicationConfig.h"
 #include "SDL.h"
+#include "ApplicationListener.h"
 #include "SDL_opengl.h"
 #include <SDL_image.h>
-#include "ApplicationListener.h"
+
+
 
 namespace Venpa2D {
 
