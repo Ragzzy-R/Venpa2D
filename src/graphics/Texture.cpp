@@ -59,6 +59,7 @@ void Texture::draw(int x,int y,int width,int height) {
 
 	glEnable(GL_TEXTURE_2D);
 	//glActiveTextureARB(GL_TEXTURE0_ARB);
+	glActiveTextureARB(GL_TEXTURE1);
 	glBindTexture(GL_TEXTURE_2D,texture);
 	glBegin(GL_QUADS);
 	//glColor3f(0.0,0.0,1.0);
